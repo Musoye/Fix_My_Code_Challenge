@@ -17,11 +17,11 @@ class square():
             if 'height' in kwargs.keys() and self.width != self.height:
                 self.width = self.height
 
-    def area_of_my_square(self):
+    def area(self):
         """ Area of the square """
         return self.width * self.width
 
-    def PermiterOfMySquare(self):
+    def Perimeter(self):
         """Perimeter of a Square"""
         return (self.width * 2) + (self.height * 2)
 
@@ -34,20 +34,20 @@ if __name__ == "__main__":
 
     s = square(width=12, height=9)
     print(s)
-    print(s.area_of_my_square())
-    print(s.PermiterOfMySquare())
+    print(s.area())
+    print(s.Perimeter())
     print('___')
     b = square(height=3)
     print(b)
-    print(b.area_of_my_square())
-    print(b.PermiterOfMySquare())
+    print(b.area())
+    print(b.Perimeter())
     print('___')
     c = square(width=5)
     print(c)
-    print(c.area_of_my_square())
-    print(c.PermiterOfMySquare())
+    print(c.area())
+    print(c.Perimeter())
     print('___')
     d = square()
     print(d)
-    print(d.area_of_my_square())
-    print(d.PermiterOfMySquare())
+    print(d.area())
+    print(d.Perimeter())

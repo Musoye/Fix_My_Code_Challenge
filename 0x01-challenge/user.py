@@ -8,7 +8,7 @@ class User():
 
     def __init__(self):
         """ Documentation """
-        self.__email = None
+        self.email = None
 
     @email.setter
     def email(self, value):
