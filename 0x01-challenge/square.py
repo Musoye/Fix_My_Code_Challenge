@@ -2,7 +2,7 @@
 """Defining the square class module"""
 
 
-class square():
+class Square():
     """Square class module"""
     width = 0
     height = 0
@@ -32,22 +32,22 @@ class square():
 
 if __name__ == "__main__":
 
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area())
     print(s.Perimeter())
     print('___')
-    b = square(height=3)
+    b = Square(height=3)
     print(b)
     print(b.area())
     print(b.Perimeter())
     print('___')
-    c = square(width=5)
+    c = Square(width=5)
     print(c)
     print(c.area())
     print(c.Perimeter())
     print('___')
-    d = square()
+    d = Square()
     print(d)
     print(d.area())
     print(d.Perimeter())
